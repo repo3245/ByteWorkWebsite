@@ -1,0 +1,242 @@
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    /* background-color: var(--body-color); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    height: calc(var(--header-height) + 1.5rem);
+    display: flex;
+    justify-content: space-between;
+    /* Distribute space between items */
+    align-items: center;
+    column-gap: 1rem;
+    width: 100%;
+    /* Ensure the nav takes the full width of the header */
+    padding: 0 0rem;
+    padding-top: 4%;
+    /* Add padding to the left and right */
+}
+
+.nav__logo {
+    font-weight: var(--font-medium);
+    display: flex;
+    justify-content: flex-start;
+    /* Align logo to the left */
+    align-items: center;
+    color: var(--title-color);
+    padding-left: 5%;
+    padding-top: 3%;
+    position: relative;
+    right: -5rem;
+}
+
+.nav__toggle {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    border-radius: 1.5rem;
+    padding-bottom: 4%;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    column-gap: 5rem;
+    height: 3.4rem;
+    width: 31rem;
+    justify-content: center;
+    border-radius: 1.1rem;
+    position: relative;
+    right: -17rem;
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    transition: .3s;
+    justify-content: center;
+    /* Center content vertically */
+    height: 100%;
+    border-radius: 1.5rem;
+    /* Ensure the link takes the full height of the parent */
+}
+
+.frame {
+    width: 100%;
+    max-width: 625px;
+    height: 384px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.group {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.rectangle1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 247, 220, 1);
+}
+
+.rectangle6,
+.rectangle5,
+.rectangle4 {
+    width: 70px;
+    height: 23px;
+    position: absolute;
+    top: 24px;
+}
+
+.rectangle6 {
+    left: 308px;
+}
+
+.rectangle5 {
+    left: 378px;
+}
+
+.rectangle4 {
+    left: 448px;
+}
+
+.text {
+    position: absolute;
+    top: 24px;
+    width: 70px;
+    height: 11px;
+    font-size: 8px;
+    font-family: 'Instrument Sans', sans-serif;
+    text-align: center;
+    color: #000;
+}
+
+.ellipse2 {
+    width: 203px;
+    height: 196px;
+    position: absolute;
+    top: 92px;
+    left: 324px;
+    background-color: rgba(46, 253, 249, 1);
+    border-radius: 50%;
+}
+
+.title {
+    position: absolute;
+    top: 86px;
+    left: 49px;
+    width: 335px;
+    height: 116px;
+    font-size: 32px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: -0.4px;
+}
+
+.description {
+    position: absolute;
+    top: 211px;
+    left: 49px;
+    width: 182px;
+    height: 38px;
+    font-size: 9px;
+    font-family: 'Instrument Sans', sans-serif;
+    color: #000;
+}
+
+.logo {
+    position: absolute;
+    top: 16px;
+    left: 50px;
+    width: 76px;
+    height: 17px;
+    font-size: 16px;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+
+.icon {
+    position: absolute;
+    top: 16px;
+    left: 22px;
+    width: 20px;
+    height: 20px;
+}
+
+.google-play,
+.app-store {
+    position: absolute;
+    top: 278px;
+    height: 24px;
+    background-color: #333;
+}
+
+.google-play {
+    width: 84px;
+    left: 50px;
+}
+
+.app-store {
+    width: 72px;
+    left: 144px;
+}
+
+.icon-large {
+    position: absolute;
+    top: 339px;
+    left: 580px;
+    width: 27px;
+    height: 27px;
+}
+
+.ellipse1 {
+    width: 119px;
+    height: 118px;
+    position: absolute;
+    top: 195px;
+    left: 426px;
+    background-color: rgba(249, 46, 253, 1);
+    border-radius: 50%;
+}
+
+.ellipse54 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 199px;
+    left: 384px;
+    background-color: rgba(148, 255, 7, 1);
+    border-radius: 50%;
+}
+
+.ellipse53 {
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    top: 226px;
+    left: 370px;
+    background-color: rgba(253, 249, 46, 1);
+    border-radius: 50%;
+}
+
+.mockup {
+    width: 111px;
+    height: 226px;
+    position: absolute;
+    top: 91px;
+    left: 399px;
+    background-color: #333;
+}
