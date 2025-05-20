@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# ByteWork - Decentralized Micro-Job Marketplace
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ ByteWork is a decentralized marketplace where freelancers can complete small gigs and receive instant crypto payments using smart contract escrow. The platform operates on blockchain technology, providing trustless transactions, lower fees, and instant payouts.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Instant Crypto Payments:** Get paid instantly in stablecoins (e.g., USDC) on low-fee blockchains like Polygon.
+- **Decentralization & Trust:** Transactions are executed via smart contracts with a transparent escrow mechanism.
+- **Global & Borderless:** Anyone with an internet connection and a crypto wallet can participate.
+- **Lower Fees:** Reduced transaction fees compared to traditional gig platforms.
+- **On-Chain Reputation:** Build a verifiable record of work that enhances credibility over time.
 
-### `npm start`
+## 🧩 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend:**  
+  - React + Vite (for fast, responsive web design)  
+  - React Native + Expo (for mobile cross-platform app)
+  
+- **Backend:**  
+  - Smart contracts powered by Ethereum (Polygon Mumbai Testnet for MVP)  
+  - MetaMask/WalletConnect for wallet integration
+  
+- **Blockchain:**  
+  - Polygon (Mumbai Testnet)  
+  - USDC (stablecoin) for transactions
+  
+- **Other Technologies:**  
+  - React for the web dashboard  
+  - IPFS (InterPlanetary File System) for decentralized file storage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧑‍🤝‍🧑 Target Audience
 
-### `npm test`
+- **Freelancers:** Creative professionals, tech-savvy freelancers, blockchain developers, and others looking for decentralized gig work.
+- **Crypto Enthusiasts:** Early crypto adopters and individuals interested in earning cryptocurrency for services rendered.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💰 Revenue Model
 
-### `npm run build`
+- **Transaction Fees:** Charge a small fee (e.g., 2–3%) on each gig transaction.
+- **Premium Services:** Subscriptions for features like priority placement, advanced analytics, or lower fees.
+- **Future Options:** Consider launching a native utility token for rewards and DAO governance.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧭 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **MetaMask/WalletConnect:** Ensure you have a wallet set up with some Polygon (MATIC) and USDC (for transactions).
+2. **Node.js & npm/yarn:** Install Node.js and npm or yarn to run the app locally.
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository to your local machine:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/repo3245/ByteWork.git
